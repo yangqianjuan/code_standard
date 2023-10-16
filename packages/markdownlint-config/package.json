@@ -1,15 +1,13 @@
 {
-  "name": "demo1",
-  "version": "0.0.0",
-  "description": "> TODO: description",
+  "name": "markdownlint-config",
+  "version": "0.0.3",
   "main": "index.json",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
+  "description": "markdownlint 文档规范",
+  "keywords": [
+    "markdown",
+    "lint"
   ],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yangqianjuan/code_standard.git"
@@ -19,5 +17,8 @@
   },
   "bugs": {
     "url": "https://github.com/yangqianjuan/code_standard/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
   }
 }
