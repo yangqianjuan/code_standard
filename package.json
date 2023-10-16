@@ -4,14 +4,25 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.3.1"
+    "@vuepress/client": "2.0.0-beta.67",
+    "lerna": "^7.3.1",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.67",
+    "husky": "^8.0.3"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    
+    "init": "pnpm install",
+    "clean": "lerna clean && rm -rf node_modules",
+    "test": "lerna run test",
+    "docs:dev": "vuepress dev doc",
+    "docs:build": "vuepress build doc",
+    "deploy": "bash deploy.sh",
+    "publish": "lerna public",
+    "lint": "markdownlint README.md",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "publishConfig": {
     "access": "public",
