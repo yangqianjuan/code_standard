@@ -1,6 +1,19 @@
+---
+title: encode-fe-eslint-config
+categories:
+  - 工程规范
+tags:
+  - 工程规范
+author:
+  name: 澄怀
+  link: https://github.com/encode-studio-fe/fe-spec
+---
+
 # encode-fe-eslint-config
 
-> 印客学院 JavaScript TypeScript Node 规范
+:::tip
+印客学院 JavaScript TypeScript Node 规范
+:::
 
 提供了多套配置文件以支持 `JavaScript`、`TypeScript`、`React`、`Vue`、`Node.js` 等多种项目类型。
 
