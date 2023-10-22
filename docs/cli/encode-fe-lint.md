@@ -5,7 +5,7 @@ categories:
 tags:
   - 脚手架规范
 author:
-  name: 澄怀
+  name: qianjuan
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
